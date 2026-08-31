@@ -1,9 +1,11 @@
 import PageCard from './PageCard';
 
-export default function PageGrid() {
+export default function PageGrid({ pages }) {
     return (
         <div className="PageGrid">
-            <PageCard />
+            {pages.map((page) => (
+                <PageCard key={page.id} page={page} />
+            ))}
         </div>
     )
 }

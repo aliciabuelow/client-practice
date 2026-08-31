@@ -1,15 +1,15 @@
 import RequirementList from './RequirementList';
 
-export default function PageCard() {
+export default function PageCard({ page }) {
     return (
         <div className="PageCard">
             <div className="card-content">
                 
                 <div className="card-left">
-                    <h2>Home</h2>
+                    <h2>{page.title}</h2>
 
                     <label htmlFor="page-status">Page status:</label>
-                    <select name="page-status" defaultValue="needs-review">
+                    <select name="page-status" defaultValue={page.status}>
                         <option value="not-requested">Not requested</option>
                         <option value="waiting">Waiting on client</option>
                         <option value="needs-review">Needs review</option>
@@ -18,7 +18,7 @@ export default function PageCard() {
 
                     <div className="priority">
                         <div className="priority-title">Priority</div>
-                        <div className="priority-level">High</div>
+                        <div className="priority-level">{page.priority}</div>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ export default function PageCard() {
                     </div>
 
                     <p className="notes">
-                        Not yet begun.
+                        {page.notes}
                     </p>
                 </div>
             </div>
