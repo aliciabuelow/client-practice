@@ -24,8 +24,8 @@ export default function PageCard({ page }) {
 
                 <div className="card-right">
                     <div className="requirements">
-                        <RequirementList type="copy" />
-                        <RequirementList type="assets" />
+                        <RequirementList type="Copy" requirements={page.requirements.copy} />
+                        <RequirementList type="Assets" requirements={page.requirements.assets} />
                     </div>
 
                     <p className="notes">
