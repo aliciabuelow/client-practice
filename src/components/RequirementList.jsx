@@ -5,8 +5,8 @@ export default function RequirementList({ type, requirements }) {
             {requirements.map((requirement) => (
                 <ul>
                     <li key={requirement.id}>
-                        {requirement.received ? 'Received' : 'Missing'}
-                         -
+                        {requirement.received ? '● ' : '○ '}
+                         
                         {requirement.label} 
                     </li>
                 </ul>
