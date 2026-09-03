@@ -1,3 +1,4 @@
+import '../styles/PageCard.css';
 import RequirementList from './RequirementList';
 
 export default function PageCard({ page }) {
