@@ -25,3 +25,10 @@ select {
 #root {
     min-height: 100vh;
 }
+
+:root {
+    --page-ready: #b04737;
+    --page-notrequested: #cfae33;
+    --page-waiting: #839d55;
+    --page-needsreview: #daa976;
+}
