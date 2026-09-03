@@ -1,0 +1,12 @@
+:root {
+    --page-ready: #b04737;
+    --page-notrequested: #cfae33;
+    --page-waiting: #839d55;
+    --page-needsreview: #daa976;
+}
+
+.App {
+    width: min(86%, 110rem);
+    margin-inline: auto;
+    padding-block: clamp(2rem, 5vw, 4rem);
+}

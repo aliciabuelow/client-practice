@@ -1,3 +1,4 @@
+import '../styles/App.css';
 import Header from './Header';
 import Filters from './Filters';
 import PageGrid from './PageGrid';
