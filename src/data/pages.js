@@ -2,7 +2,7 @@ const pages = [
   {
     id: "home",
     title: "Home",
-    status: "needs-review",
+    status: "Needs review",
     priority: "high",
     notes:
       "Two hero photo options supplied. Final selection needs approval.",
@@ -46,7 +46,7 @@ const pages = [
   {
     id: "our-story",
     title: "Our Story",
-    status: "waiting",
+    status: "Waiting",
     priority: "medium",
     notes: "Waiting for the owner's bio and updated team photo.",
     requirements: {
@@ -89,7 +89,7 @@ const pages = [
   {
     id: "menu",
     title: "Menu",
-    status: "waiting",
+    status: "Waiting",
     priority: "high",
     notes: "Client is finalising prices and dietary details.",
     requirements: {
@@ -132,7 +132,7 @@ const pages = [
   {
     id: "events",
     title: "Events",
-    status: "not-requested",
+    status: "Not yet requested",
     priority: "low",
     notes:
       "Request content once the upcoming events schedule is confirmed.",
@@ -171,7 +171,7 @@ const pages = [
   {
     id: "gallery",
     title: "Gallery",
-    status: "ready",
+    status: "Ready",
     priority: "low",
     notes: "Final image selection and credits approved.",
     requirements: {
@@ -204,7 +204,7 @@ const pages = [
   {
     id: "contact",
     title: "Contact",
-    status: "ready",
+    status: "Ready",
     priority: "medium",
     notes:
       "Opening hours, reservation details, and location information confirmed.",

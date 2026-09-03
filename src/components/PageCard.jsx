@@ -8,13 +8,8 @@ export default function PageCard({ page }) {
                 <div className="card-left">
                     <h2>{page.title}</h2>
 
-                    <label htmlFor="page-status">Page status:</label>
-                    <select name="page-status" defaultValue={page.status}>
-                        <option value="not-requested">Not requested</option>
-                        <option value="waiting">Waiting on client</option>
-                        <option value="needs-review">Needs review</option>
-                        <option value="ready">Ready to build</option>
-                    </select>
+                    <span>Status: </span>
+                    <span>{page.status}</span>
 
                     <div className="priority">
                         <div className="priority-title">Priority</div>
