@@ -1,0 +1,12 @@
+h1 {
+    margin: 0.5rem auto;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.counter {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-style: italic;
+}

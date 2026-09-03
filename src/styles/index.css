@@ -13,7 +13,8 @@ body {
     margin: 0;
     background-color: #F1EEE2;
     color: #2E2926;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 button,

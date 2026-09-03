@@ -1,3 +1,5 @@
+import '../styles/Header.css';
+
 export default function Header({ readyCount, totalPages }) {
     return (
         <div className="Header">
