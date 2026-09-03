@@ -4,7 +4,7 @@ import PageGrid from './PageGrid';
 import pages from '../data/pages.js';
 
 export default function App() {
-    const readyPages = pages.filter((page) => page.status === "ready");
+    const readyPages = pages.filter((page) => page.status === "Ready to build");
     const readyCount = readyPages.length;
     const totalPages = pages.length;
 

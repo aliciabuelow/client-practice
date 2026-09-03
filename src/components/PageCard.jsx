@@ -8,8 +8,8 @@ export default function PageCard({ page }) {
                 <div className="card-left">
                     <h2>{page.title}</h2>
 
-                    <span>Status: </span>
-                    <span>{page.status}</span>
+                    <div className="status-title">Status</div>
+                    <div className="status-level">{page.status}</div>
 
                     <div className="priority">
                         <div className="priority-title">Priority</div>
