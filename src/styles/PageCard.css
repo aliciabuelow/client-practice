@@ -1,0 +1,15 @@
+.PageCard[data-status="Ready to build"] {
+    background-color: var(--page-ready);
+}
+
+.PageCard[data-status="Needs review"] {
+    background-color: var(--page-needsreview);
+}
+
+.PageCard[data-status="Waiting"] {
+    background-color: var(--page-waiting);
+}
+
+.PageCard[data-status="Not yet requested"] {
+    background-color: var(--page-notrequested);
+}

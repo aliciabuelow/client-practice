@@ -3,7 +3,7 @@ import RequirementList from './RequirementList';
 
 export default function PageCard({ page }) {
     return (
-        <div className="PageCard">
+        <div className="PageCard" data-status={page.status}>
             <div className="card-content">
                 
                 <div className="card-left">
