@@ -1,0 +1,19 @@
+.requirement-title {
+    margin: 0 auto;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.RequirementList ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.RequirementList li {
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}

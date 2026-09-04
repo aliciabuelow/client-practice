@@ -27,8 +27,8 @@ select {
 }
 
 :root {
-    --page-ready: #b04737;
-    --page-notrequested: #ddc15d;
-    --page-waiting: #7c8866;
-    --page-needsreview: #daa976;
+    --page-ready: #a85842;
+    --page-notrequested: #bc9a49;
+    --page-waiting: #798467;
+    --page-needsreview: #deb789;
 }

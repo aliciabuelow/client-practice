@@ -1,3 +1,5 @@
+import '../styles/RequirementList.css';
+
 export default function RequirementList({ type, requirements }) {
     return (
         <div className="RequirementList">
