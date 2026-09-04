@@ -7,7 +7,12 @@ export default function RequirementList({ type, requirements }) {
             {requirements.map((requirement) => (
                 <ul>
                     <li key={requirement.id}>
-                        {requirement.received ? '● ' : '○ '}
+                        <span
+                            className={`requirement-marker ${
+                                requirement.received ? "received" : "missing"
+                            }`}
+                            aria-hidden="true"
+                        ></span>
                          
                         {requirement.label} 
                     </li>
